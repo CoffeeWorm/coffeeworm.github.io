@@ -1,0 +1,22 @@
+.page-index {
+  padding: 20px;
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .nav-list {
+    margin: 0;
+    padding: 0 10px;
+    display: block;
+    &-item {
+      float: left;
+      margin: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    &::after {
+      content: '';
+      clear: both;
+    }
+  }
+}

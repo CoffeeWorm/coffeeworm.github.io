@@ -1,0 +1,36 @@
+{
+  "name": "coffeeworm.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:CoffeeWorm/coffeeworm.github.io.git",
+  "author": "CoffeeWorm",
+  "license": "MIT",
+  "dependencies": {
+    "mobx": "^6.6.1",
+    "normalize.css": "^8.0.1",
+    "qiankun": "^2.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-router": "^5.1.18",
+    "@types/react-router-dom": "^5.3.3",
+    "@wei-tools/eslint-config-typescript": "^0.1.0",
+    "@wei-tools/prettier-config": "^0.1.0",
+    "eslint": "^8.19.0",
+    "less": "^4.1.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
