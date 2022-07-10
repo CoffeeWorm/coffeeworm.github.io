@@ -18,4 +18,4 @@ registerMicroApps([
   }
 ]);
 
-start({ sandbox: { strictStyleIsolation: true } });
+start();

@@ -4,6 +4,6 @@ import Bankcard from '../pages/Bankcard';
 
 export default [
   { name: 'index', path: '/', component: Index },
-  { name: 'json to querystring', path: '/json2querystring', component: Container },
-  { name: 'bankcard', path: '/bankcard', component: Bankcard }
+  { name: 'JSON and Querystring Transfer', path: '/json2querystring', component: Container },
+  { name: 'Bankcard Generator', path: '/bankcard', component: Bankcard }
 ];
