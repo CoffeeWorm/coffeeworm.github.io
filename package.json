@@ -6,6 +6,7 @@
   "author": "CoffeeWorm",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.3.1",
     "mobx": "^6.6.1",
     "normalize.css": "^8.0.1",
     "qiankun": "^2.7.3",
